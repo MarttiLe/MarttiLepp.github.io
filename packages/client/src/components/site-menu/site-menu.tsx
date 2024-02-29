@@ -24,10 +24,10 @@ export const SiteMenu = ({ className, isOpen }: SiteMenuProps) => {
   return (
     <RadixMenu.Root className={cx(styles.root, className)}>
       <RadixMenu.List className={styles.topMenu}>
-        <MenuItem to={ROUTES.projects.to()} text="Home" />
-        <MenuItem to={ROUTES.about.to()} text="About" />
+        <MenuItem to={ROUTES.projects.to()} text="Kodu" />
+        <MenuItem to={ROUTES.about.to()} text="Minust" />
         <RadixMenu.Item>
-          <FloatingContentWithTrigger text="Projects" isOpen={isOpen}>
+          <FloatingContentWithTrigger text="Projektid" isOpen={isOpen}>
             {isLoading ? (
               <div>Loading...</div>
             ) : (
@@ -41,7 +41,7 @@ export const SiteMenu = ({ className, isOpen }: SiteMenuProps) => {
         </RadixMenu.Item>
         <RadixMenu.Item>
             <a href="#footer" className={styles.Link}>
-              Contact
+              Kontakt
             </a>
         </RadixMenu.Item>
       </RadixMenu.List>

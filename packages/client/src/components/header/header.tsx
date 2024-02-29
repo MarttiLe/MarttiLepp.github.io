@@ -13,7 +13,7 @@ export interface HeaderProps {
 export const Header = ({ className }: HeaderProps) => {
   return (
     <div className={cx(styles.root, className)}>
-      <span className={styles.logo}>KOLINJ</span>
+      <span className={styles.logo}>MarttiLeppmets</span>
       <SiteMenu className={styles.menu} />
     </div>
   );

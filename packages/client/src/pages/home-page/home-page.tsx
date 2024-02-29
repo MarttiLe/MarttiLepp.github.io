@@ -25,15 +25,15 @@ export const HomePage = () => {
     return (
         <div className={cx(styles.root, 'page')}>
             <div className={cx(styles.rectangle, styles.textWrapper)}>
-                <h3 className={styles.text}>Sophistication in Design, Excellence in Execution</h3>
+                <h3 className={styles.text}>Hetkede jäädvustamine, mälestuste loomine: Martti Fotograafia</h3>
             </div>
             <div className={cx(styles.rectangle, styles.img)}></div>
             <div className={styles.logoWrapper}>
-                <h1 className={styles.logo}>KOLINJ</h1>
+                <h1 className={styles.logo}>MARTTILE</h1>
             </div>
             <div className={styles.marquee}>
                 <motion.div className={styles.marqueeContent} variants={marqueeVariants} animate="animate">
-                    {Array(2).fill('Desert Oasis • Urban Charm • Palm Elegance • Ranch Comfort • Beachside Dining • ')}
+                    {Array(2).fill('Portreed • Pildid Loodusest • Reisipildid • Igapäeva Hetked • Tänava Fotograafia • ')}
                 </motion.div>
             </div>
             <ProjectsGallery className={styles.gallery} headerHeight={theme.headerHeight} />

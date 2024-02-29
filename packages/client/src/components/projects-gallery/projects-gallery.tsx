@@ -50,7 +50,7 @@ export const ProjectsGallery = ({ className, headerHeight }: ProjectsGalleryProp
             }}
           >
             {project.attributes.title}
-            <span>show →</span>
+            <span>näita →</span>
           </Link>
           <img
             key={`img_${project.id}`}
